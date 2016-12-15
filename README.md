@@ -3,6 +3,6 @@ MyBlog
 
 
 ### Swift
-[01-Swift 新用户引导页](https://github.com/CalvinCheungCoder/Blog/tree/master/Swift)
+[01-Swift 新用户引导页](https://github.com/CalvinCheungCoder/Blog/blob/master/Swift/Swift%20%E6%96%B0%E7%94%A8%E6%88%B7%E5%BC%95%E5%AF%BC%E9%A1%B5.md)
 
 
