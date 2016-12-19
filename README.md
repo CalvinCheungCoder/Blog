@@ -1,5 +1,4 @@
-# Blog
-MyBlog
+
 
 ### Objective-C 
 [01 - 自定制文字和图片随便摆放按钮](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E6%8C%89%E9%92%AE%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E5%92%8C%E6%96%87%E5%AD%97.md)
