@@ -9,16 +9,18 @@
 ```
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender
 {
-    if (action == @selector(paste:))//禁止粘贴
-        return NO;
-    if (action == @selector(select:))// 禁止选择
-        return NO;
-    if (action == @selector(selectAll:))// 禁止全选
-        return NO;
-    return [super canPerformAction:action withSender:sender];
+    
+    UIMenuController *menuController = [UIMenuController sharedMenuController];
+    
+    if(menuController) {
+        
+        [UIMenuController sharedMenuController].menuVisible = NO;
+        
+    }
+    
+    return NO;
 }
 ```
-粘贴、选择、全选等根据自己需要选择。
 
 3、在创建 UITextfield 时基于 BaseTextfield 创建，此时的 Textfield 就没有了粘贴、选择以及全选功能。
 
