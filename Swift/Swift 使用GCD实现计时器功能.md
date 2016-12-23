@@ -4,7 +4,7 @@
 
 下面的代码将会在5秒后执行，且只执行一次。
 
-```
+```Swift
 let time: NSTimeInterval = 5.0
 let delay = dispatch_time(DISPATCH_TIME_NOW, Int64(time * Double(NSEC_PER_SEC)))
 
@@ -16,7 +16,7 @@ dispatch_after(delay, dispatch_get_main_queue()) {
 执行多次
 
 下面的代码是一个60秒倒计时的例子。
-```
+```Swift
 var _timeout: Int = 60
 let _queue: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 let _timer: dispatch_source_t = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, _queue)
