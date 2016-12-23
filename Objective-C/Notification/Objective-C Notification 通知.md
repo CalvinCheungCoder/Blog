@@ -127,7 +127,7 @@ NSNotificationCenter.defaultCenter().removeObserver(self,
 
 * 通知（消息）的创建 
 
-``` 
+``` Objective-C
 + (instancetype)notificationWithName:(NSString *)aName object:(nullable id)anObject;
 
 + (instancetype)notificationWithName:(NSString *)aName object:(nullable id)anObject 
@@ -145,7 +145,7 @@ NSNotificationCenter.defaultCenter().removeObserver(self,
 * Objective-C
 
 
-```
+```Objective-C
 // 不带消息内容
     NSNotification *notification1 = [NSNotification notificationWithName:@"notification1" 
                                                                   object:self];                                         
@@ -158,7 +158,7 @@ NSNotificationCenter.defaultCenter().removeObserver(self,
 
 * Swift
 
-```
+```Swift
 // 不带消息内容
     let notification1 = NSNotification(name: "notification1", 
                                      object: self)                                                                      
@@ -171,7 +171,7 @@ let notification2 = NSNotification(name: "notification2",
 * 发送通知
 
 
-```
+```Objective-C
 - (void)postNotification:(NSNotification *)notification;
 
 - (void)postNotificationName:(NSString *)aName object:(nullable id)anObject;
@@ -195,7 +195,7 @@ let notification2 = NSNotification(name: "notification2",
 * Objective-C
 
     
-```
+```Objective-C
 // 发送创建好的消息
     [[NSNotificationCenter defaultCenter] postNotification:notification1];
 
@@ -212,7 +212,7 @@ let notification2 = NSNotification(name: "notification2",
 * Swift
 
 
-```
+```Swift
 // 发送创建好的消息
     NSNotificationCenter.defaultCenter().postNotification(notification1)
 
@@ -229,7 +229,7 @@ let notification2 = NSNotification(name: "notification2",
 * 注册通知（观察者）
 
 
-```
+```Objective-C
 - (void)addObserver:(id)observer 
                selector:(SEL)aSelector 
                    name:(nullable NSString *)aName 
@@ -263,7 +263,7 @@ let notification2 = NSNotification(name: "notification2",
 * Objective-C
 
 
-```
+```Objective-C
 [[NSNotificationCenter defaultCenter] addObserver:self 
                                              selector:@selector(notification1Sel) 
                                                  name:@"notification1" 
@@ -290,7 +290,7 @@ let notification2 = NSNotification(name: "notification2",
 * Swift
 
     
-```
+```Swift
 NSNotificationCenter.defaultCenter().addObserver(self, 
                                             selector: #selector(ViewController.notification1Sel), 
                                                 name: "notification1", 
@@ -319,7 +319,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 * 移除通知（观察者）
 
 
-```
+```Objective-C
 - (void)removeObserver:(id)observer;
 
 - (void)removeObserver:(id)observer name:(nullable NSString *)aName object:(nullable id)anObject;
@@ -336,7 +336,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 * Objective-C
 
 	
-```
+```Objective-C
 // 移除此观察者的所有通知
 [[NSNotificationCenter defaultCenter] removeObserver:self];
 
@@ -347,7 +347,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 * Swift
 
 
-```
+```Swift
     // 移除此观察者的所有通知
     NSNotificationCenter.defaultCenter().removeObserver(self)
 
@@ -368,7 +368,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 
 * 发送异步通知
 
-```
+```Objective-C
 - (void)enqueueNotification:(NSNotification *)notification 
                    postingStyle:(NSPostingStyle)postingStyle;
 
@@ -397,7 +397,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 ```
 
 * Objective-C
-```
+```Objective-C
 	// 创建通知
     NSNotification *asyncNotification = [NSNotification notificationWithName:@"asyncNotification" object:self];
 
@@ -410,7 +410,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 
 * 移除异步通知
 
-```
+```Objective-C
 - (void)dequeueNotificationsMatching:(NSNotification *)notification coalesceMask:(NSUInteger)coalesceMask;
 
     参数说明：
@@ -420,7 +420,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 
 * Objective-C
 
-```
+```Objective-C
  	// 移除通知，不是立即发布的通知可以被移除
     [[NSNotificationQueue defaultQueue] dequeueNotificationsMatching:asyncNotification coalesceMask:0];
 ```
@@ -433,7 +433,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 
 * UIDevice 对象会不间断地发布一些通知，下列是 UIDevice 对象所发布通知的名称常量： 
 
-```
+```Objective-C
     UIDeviceOrientationDidChangeNotification     // 设备旋转
     UIDeviceBatteryStateDidChangeNotification    // 电池状态改变
     UIDeviceBatteryLevelDidChangeNotification    // 电池电量改变
@@ -445,7 +445,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 * 我们经常需要在键盘弹出或者隐藏的时候做一些特定的操作，因此需要监听键盘的状态。 
 * 键盘状态改变的时候，系统会发出一些特定的通知： 
 
-```
+```Objective-C
     UIKeyboardWillShowNotification         // 键盘即将显示
     UIKeyboardDidShowNotification          // 键盘显示完毕
     UIKeyboardWillHideNotification         // 键盘即将隐藏
@@ -457,7 +457,7 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 * 系统发出键盘通知时，会附带一下跟键盘有关的额外信息(字典)，字典常见的 key 如下:
 
 
-```
+```Objective-C
     UIKeyboardFrameBeginUserInfoKey         // 键盘刚开始的 frame
     UIKeyboardFrameEndUserInfoKey           // 键盘最终的 frame（动画执行完毕后）
     UIKeyboardAnimationDurationUserInfoKey  // 键盘动画的时间
