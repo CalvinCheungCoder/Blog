@@ -11,7 +11,7 @@ Cocoa 使用两种方式实现了观察者模式： 一个是 Key-Value Observin
 除此之外，由于程序进入后台会发送 UIApplicationDidEnterBackgroundNotification 的通知，我们可以事先注册个监听这个通知的“观察者”来处理。
 
 
-```
+``` Swift
 import UIKit
  
 class ViewController: UIViewController {
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
 
 --- ViewController.swift ---
 
-```
+``` Swift
 import UIKit
  
 class ViewController: UIViewController {
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
 --- MyObserver.swift ---
 
 
-```
+``` Swift
 import UIKit
  
 class MyObserver: NSObject {
