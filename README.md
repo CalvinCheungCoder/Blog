@@ -7,6 +7,7 @@
 01 | [自定制文字和图片随便摆放按钮](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E6%8C%89%E9%92%AE%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E5%92%8C%E6%96%87%E5%AD%97.md)
 02 | [Notification通知](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Notification/Objective-C%20Notification%20%E9%80%9A%E7%9F%A5.md)
 03 | [禁止 Textfield 复制粘贴以及选择功能](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E7%A6%81%E6%AD%A2%20Textfield%20%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4%E4%BB%A5%E5%8F%8A%E9%80%89%E6%8B%A9%E5%8A%9F%E8%83%BD.md)
+04 | [定制类似网易新闻可滑动的 Segment](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E5%AE%9A%E5%88%B6%E7%B1%BB%E4%BC%BC%E7%BD%91%E6%98%93%E6%96%B0%E9%97%BBSegment.md)
 
 > Swift
 
