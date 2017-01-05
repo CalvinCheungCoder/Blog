@@ -11,6 +11,7 @@
 05 | [简单优雅的定制环形进度条-进度条动画和非动画](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E7%AE%80%E5%8D%95%E4%BC%98%E9%9B%85%E7%9A%84%E5%AE%9A%E5%88%B6%E5%9C%86%E5%BD%A2%E8%BF%9B%E5%BA%A6%E6%9D%A1.md)
 06 | [自定义进度条-进度条动画](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Objective-C%20%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BF%9B%E5%BA%A6%E6%9D%A1.md)
 07 | [iOS App 新版本检测并提示更新『绕过 Apple 审核』](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20App%20%E6%96%B0%E7%89%88%E6%9C%AC%E6%A3%80%E6%B5%8B%E5%B9%B6%E6%8F%90%E7%A4%BA%E6%9B%B4%E6%96%B0%E3%80%8E%E7%BB%95%E8%BF%87%20Apple%20%E5%AE%A1%E6%A0%B8%E3%80%8F.md)
+08 | [iOS 封装自定义打印方法](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E5%B0%81%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89%E6%89%93%E5%8D%B0%E6%96%B9%E6%B3%95.md)
 
 > Swift
 
