@@ -13,6 +13,7 @@
 07 | [iOS App 新版本检测并提示更新『绕过 Apple 审核』](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20App%20%E6%96%B0%E7%89%88%E6%9C%AC%E6%A3%80%E6%B5%8B%E5%B9%B6%E6%8F%90%E7%A4%BA%E6%9B%B4%E6%96%B0%E3%80%8E%E7%BB%95%E8%BF%87%20Apple%20%E5%AE%A1%E6%A0%B8%E3%80%8F.md)
 08 | [iOS 封装自定义打印方法](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E5%B0%81%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89%E6%89%93%E5%8D%B0%E6%96%B9%E6%B3%95.md)
 09 | [iOS 应用间跳转『一篇就够了』](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/JumpBetweenApplications/iOS%20%E5%BA%94%E7%94%A8%E9%97%B4%E8%B7%B3%E8%BD%AC%E3%80%8E%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86%E3%80%8F.md)
+10 | [iOS 文字上下翻转(跑马灯效果)](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E6%96%87%E5%AD%97%E4%B8%8A%E4%B8%8B%E7%BF%BB%E8%BD%AC(%E8%B7%91%E9%A9%AC%E7%81%AF%E6%95%88%E6%9E%9C).md)
 
 > Swift
 
