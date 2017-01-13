@@ -14,6 +14,7 @@
 08 | [iOS 封装自定义打印方法](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E5%B0%81%E8%A3%85%E8%87%AA%E5%AE%9A%E4%B9%89%E6%89%93%E5%8D%B0%E6%96%B9%E6%B3%95.md)
 09 | [iOS 应用间跳转『一篇就够了』](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/JumpBetweenApplications/iOS%20%E5%BA%94%E7%94%A8%E9%97%B4%E8%B7%B3%E8%BD%AC%E3%80%8E%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86%E3%80%8F.md)
 10 | [iOS 文字上下翻转(跑马灯效果)](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E6%96%87%E5%AD%97%E4%B8%8A%E4%B8%8B%E7%BF%BB%E8%BD%AC(%E8%B7%91%E9%A9%AC%E7%81%AF%E6%95%88%E6%9E%9C).md)
+11 | [修改 macOS 终端最前面显示的计算机名称](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Change/%E4%BF%AE%E6%94%B9%20macOS%20%E7%BB%88%E7%AB%AF%E6%9C%80%E5%89%8D%E9%9D%A2%E6%98%BE%E7%A4%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%90%8D%E7%A7%B0.md)
 
 > Swift
 
