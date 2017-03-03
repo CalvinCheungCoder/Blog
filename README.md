@@ -16,6 +16,7 @@
 10 | [iOS 文字上下翻转(跑马灯效果)](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E6%96%87%E5%AD%97%E4%B8%8A%E4%B8%8B%E7%BF%BB%E8%BD%AC(%E8%B7%91%E9%A9%AC%E7%81%AF%E6%95%88%E6%9E%9C).md)
 11 | [修改 macOS 终端最前面显示的计算机名称](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/Change/%E4%BF%AE%E6%94%B9%20macOS%20%E7%BB%88%E7%AB%AF%E6%9C%80%E5%89%8D%E9%9D%A2%E6%98%BE%E7%A4%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%90%8D%E7%A7%B0.md)
 12 | [iOS7 之后如何获取唯一的 UDID](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS7%20%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E5%94%AF%E4%B8%80%E7%9A%84%20UDID.md)
+13 | [iOS 手势事件 UIGestureRecognizer](https://github.com/CalvinCheungCoder/Blog/blob/master/Objective-C/iOS%20%E6%89%8B%E5%8A%BF%E4%BA%8B%E4%BB%B6%20UIGestureRecognizer.md)
 
 > Swift
 
