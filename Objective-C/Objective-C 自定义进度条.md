@@ -8,6 +8,7 @@
 一、创建基于 UIView 的 CustomProgressView
 
 二、在 CustomProgressView.h 文件中声明进度条进度、进度条底部颜色、进度条颜色等
+
 ```Objective-C
 @property (nonatomic, strong) UIColor *trackColor;      // 进度条背景颜色
 @property (nonatomic, strong) UIColor *progressColor;   // 进度条颜色
@@ -17,6 +18,7 @@
 ```
 
 三、在 CustomProgressView.m 文件中进行实现
+
 ```Objective-C
 @interface CustomProgressView ()
 

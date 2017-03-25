@@ -3,6 +3,7 @@
 一、创建基于 UIView 的视图并命名为 CustomSegment
 
 CustomSegment.h 代码
+
 ``` Objective-C
 #import <UIKit/UIKit.h>
 
@@ -23,6 +24,7 @@ CustomSegment.h 代码
 ```
 
 CustomSegment.m 实现封装的方法
+
 ``` Objective-C
 #import "CustomSegment.h"
 

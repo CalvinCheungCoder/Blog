@@ -6,7 +6,8 @@ Base64: 把任意序列的8为字节描述为一种不易为人识别的形式, 
 
 二. 代码
 
-1. MD5: 
+1.MD5: 
+
 ``` Swift
 public class MD5Utils {
 	/**
@@ -26,7 +27,8 @@ public class MD5Utils {
 }
 ```
 
-2. Base64:  
+2.Base64:  
+
 ```Swift
 public class Base64Util {
 	/**
@@ -72,7 +74,8 @@ public class Base64Util {
 }
 ```
 
-3. 测试代码:
+3.测试代码:
+
 ```Swift
 public class Test {
 	/**
