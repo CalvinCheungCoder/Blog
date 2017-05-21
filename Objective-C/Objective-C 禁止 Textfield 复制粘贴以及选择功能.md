@@ -9,7 +9,6 @@
 ``` Objective-C
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender
 {
-    
     UIMenuController *menuController = [UIMenuController sharedMenuController];
     
     if(menuController) {
